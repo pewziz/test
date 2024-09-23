@@ -7,7 +7,7 @@ export const settings = {
         title: ':ticket~1:Ticket Panel',
         description: 'Please select the ticket category from the drop-down menu below, and a team member will promptly address your request.',
         iconUrl: 'https://imgur.com/c7Awuk6',
-        color: 0xff6924c2,
+        color: 0xffffff,
         thumbnailUrl: 'https://imgur.com/c7Awuk6',
         bannerUrl: 'https://imgur.com/PvMb7ST',
         alreadyOpenMessage: 'Vous avez déjà un ticket ouvert',
