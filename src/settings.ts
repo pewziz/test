@@ -1,15 +1,15 @@
 export const settings = {
-    guildId: '1120314227639451810', // ID du serveur
-    ticketPanelId: '1120589706854400010', // ID du salon où le panel de tickets sera envoyé
-    categoryId: '1120589696276377681', // ID de la catégorie où les tickets seront créés
-    moderatorRoleId: '1126949996621746247', // ID du rôle de modérateur pour les tickets
+    guildId: '1208473287206899742', // ID du serveur
+    ticketPanelId: '1208510929466032199', // ID du salon où le panel de tickets sera envoyé
+    categoryId: '1208521258052882544', // ID de la catégorie où les tickets seront créés
+    moderatorRoleId: '1208474647620878467', // ID du rôle de modérateur pour les tickets
     ticketPanel: {
-        title: 'Ticket Panel',
-        description: 'Cliquez sur la réaction ci-dessous pour ouvrir un ticket',
-        iconUrl: 'https://m.media-amazon.com/images/I/51lpm9SpsJL.png',
-        color: 0xffffff,
-        thumbnailUrl: 'https://m.media-amazon.com/images/I/51lpm9SpsJL.png',
-        bannerUrl: 'https://m.media-amazon.com/images/I/51lpm9SpsJL.png',
+        title: ':ticket~1:Ticket Panel',
+        description: 'Please select the ticket category from the drop-down menu below, and a team member will promptly address your request.',
+        iconUrl: 'https://imgur.com/c7Awuk6',
+        color: 0xff6924c2,
+        thumbnailUrl: 'https://imgur.com/c7Awuk6',
+        bannerUrl: 'https://imgur.com/PvMb7ST',
         alreadyOpenMessage: 'Vous avez déjà un ticket ouvert',
         menu: {
             options: [
@@ -19,7 +19,7 @@ export const settings = {
                     description: 'Open to buy one of our products',
                     emoji: {
                         name: 'dot',
-                        id: '1286747402518401096'
+                        id: '1208514913220304958'
                     }
                 },
                 {
@@ -28,7 +28,7 @@ export const settings = {
                     description: 'Open To Exchange',
                     emoji: {
                         name: 'dot',
-                        id: '1286747402518401096'
+                        id: '1211579113924591646'
                     }
                 },
                 {
@@ -37,7 +37,7 @@ export const settings = {
                     description: 'Open For Support Purchase',
                     emoji: {
                         name: 'dot',
-                        id: '1286747402518401096'
+                        id: '1218205106474848328'
                     }
                 }
             ]
